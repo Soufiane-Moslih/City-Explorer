@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_liste"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Liste" />
+
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="Spinner" />
+
+        <item
+            android:id="@+id/nav_grid"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Grid" />
+
+        <item
+            android:id="@+id/nav_imageliste"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="ImageListe" />
+    </group>
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Section: Navigation -->
+    <item android:title="@string/navigation_section">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="@string/home" />
+                
+                <item
+                    android:id="@+id/nav_liste"
+                    android:icon="@android:drawable/ic_menu_sort_by_size"
+                    android:title="Liste" />
+
+                <item
+                    android:id="@+id/nav_spinner"
+                    android:icon="@android:drawable/arrow_down_float"
+                    android:title="Spinner" />
+
+                <item
+                    android:id="@+id/nav_grid"
+                    android:icon="@android:drawable/ic_menu_view"
+                    android:title="Grid" />
+
+                <item
+                    android:id="@+id/nav_imageliste"
+                    android:icon="@android:drawable/ic_menu_gallery"
+                    android:title="ImageListe" />
+                
+                <item
+                    android:id="@+id/nav_map"
+                    android:icon="@android:drawable/ic_menu_mylocation"
+                    android:title="@string/morocco_map" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Section: Informations -->
+    <item android:title="@string/information_section">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_photo_gallery"
+                    android:icon="@android:drawable/ic_menu_gallery"
+                    android:title="@string/photo_gallery" />
+                
+                <item
+                    android:id="@+id/nav_statistics"
+                    android:icon="@android:drawable/ic_menu_recent_history"
+                    android:title="@string/statistics" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Section: Support -->
+    <item android:title="@string/contact_us_section">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@android:drawable/ic_menu_call"
+                    android:title="@string/contact_us" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- Section: Sign out -->
+    <item android:title="@string/sign_out_section">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_quit"
+                    android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                    android:title="@string/quit" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
